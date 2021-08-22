@@ -1,0 +1,28 @@
+.price-calculation p {
+    font-weight: 600;
+    position: relative;
+}
+
+.price-calculation p:after {
+    content: '';
+    width: 50%;
+    height: 1px;
+    background: #afadad;
+    display: block;
+    position: absolute
+}
+
+.price-calculation p:nth-child(4):after {
+    height: 3px;
+    background: #3d3c3c;
+}
+
+.price-calculation p:last-child::after {
+    height: 0;
+}
+.last-total h2{
+    text-align: center;
+}
+button{
+    margin: 2px;
+}
